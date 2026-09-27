@@ -11,8 +11,12 @@ h1{
 
 img{
     height:700px;
+    box-shadow:0 10px 20px 5px black;
 }
 
+.image-container{
+    perspective: 400px;
+}
 
 @media (max-width:450px) {
     img{
